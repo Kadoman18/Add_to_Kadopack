@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:rusted_iron_block",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rusted_iron_block",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.block",
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:stone_tier_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{ "item": "wooden_pickaxe", "destroy_speed": 1.5 },
+					{ "item": "stone_pickaxe", "destroy_speed": 0.75 },
+					{ "item": "iron_pickaxe", "destroy_speed": 0.5 },
+					{ "item": "diamond_pickaxe", "destroy_speed": 0.4 },
+					{ "item": "netherite_pickaxe", "destroy_speed": 0.35 },
+					{ "item": "golden_pickaxe", "destroy_speed": 0.25 }
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:raw_copper_bricks_slab",
+					"functions": [{ "function": "set_count", "count": 2 }]
+				}
+			]
+		}
+	]
+}

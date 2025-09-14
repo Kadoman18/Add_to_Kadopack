@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:voidstone_bricks",
+			"menu_category": {
+				"group": "minecraft:itemGroup.name.stoneBrick",
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "voidstone_bricks"
+				}
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:stone_tier_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{ "item": "wooden_pickaxe", "destroy_speed": 1.15 },
+					{ "item": "stone_pickaxe", "destroy_speed": 0.6 },
+					{ "item": "iron_pickaxe", "destroy_speed": 0.4 },
+					{ "item": "diamond_pickaxe", "destroy_speed": 0.3 },
+					{ "item": "netherite_pickaxe", "destroy_speed": 0.25 },
+					{ "item": "golden_pickaxe", "destroy_speed": 0.2 }
+				]
+			}
+		}
+	}
+}

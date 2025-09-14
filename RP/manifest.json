@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"min_engine_version": [1, 21, 0],
+		"name": "Add to Kadopack (RP)",
+		"description": "Shit to add to the Kadopack",
+		"uuid": "cdb66484-36e0-4ba6-8133-a37f1c02e287",
+		"version": [1, 0, 4]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"description": "Fixes Galore.",
+			"uuid": "695fbadc-7fed-46c7-899f-3a5e8bcb8bb0",
+			"version": [1, 0, 4]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "210ac8da-d8d9-4dc7-b391-e241e14f7927",
+			"version": [1, 0, 7]
+		}
+	],
+	"metadata": { "authors": ["Kadoman18"] }
+}

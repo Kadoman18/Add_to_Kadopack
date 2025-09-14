@@ -1,0 +1,9 @@
+[
+	{
+		"flipbook_texture": "textures/blocks/magma_bricks",
+		"atlas_tile": "magma_bricks",
+		"ticks_per_frame": 8,
+		"blend_frames": true,
+		"frames": [0, 1, 2]
+	}
+]

@@ -1,0 +1,148 @@
+{
+	"resource_pack_name": "Kadopack v.3.0",
+	"texture_name": "atlas.terrain",
+	"num_mip_levels": 4,
+	"padding": 8,
+	"texture_data": {
+		"": {
+			"textures": ["textures/blocks/"]
+		},
+		"andesite_bricks": {
+			"textures": ["textures/blocks/stones/bricks/andesite_bricks"]
+		},
+		"andesite_pavement": {
+			"textures": ["textures/blocks/stones/pavement/andesite_pavement"]
+		},
+		"andesite_pillar": {
+			"textures": ["textures/blocks/stones/pillars/andesite_pillar"]
+		},
+		"blackstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/blackstone_bricks"]
+		},
+		"calcite_bricks": {
+			"textures": ["textures/blocks/stones/bricks/calcite_bricks"]
+		},
+		"calcite_pillar": {
+			"textures": ["textures/blocks/stones/pillars/calcite_pillar"]
+		},
+		"charred_nether_bricks": {
+			"textures": ["textures/blocks/stones/bricks/charred_nether_bricks"]
+		},
+		"chiseled_diorite": {
+			"textures": ["textures/blocks/stones/chiseled/chiseled_diorite"]
+		},
+		"chiseled_granite": {
+			"textures": ["textures/blocks/stones/chiseled/chiseled_granite"]
+		},
+		"chiseled_soul_sandstone": {
+			"textures": ["textures/blocks/stones/chiseled/chiseled_soul_sandstone"]
+		},
+		"chiseled_voidstone": {
+			"textures": [
+				"textures/blocks/stones/chiseled/chiseled_voidstone_bricks"
+			]
+		},
+		"cobblestone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/cobblestone_bricks"]
+		},
+		"cut_soul_sandstone": {
+			"textures": ["textures/blocks/stones/cut_soul_sandstone"]
+		},
+		"diorite_bricks": {
+			"textures": ["textures/blocks/stones/bricks/diorite_bricks"]
+		},
+		"diorite_pavement": {
+			"textures": ["textures/blocks/stones/pavement/diorite_pavement"]
+		},
+		"diorite_pillar": {
+			"textures": ["textures/blocks/stones/pillars/diorite_pillar"]
+		},
+		"dirt_bricks": {
+			"textures": ["textures/blocks/stones/bricks/dirt_bricks"]
+		},
+		"dripstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/dripstone_bricks"]
+		},
+		"dripstone_pillar": {
+			"textures": ["textures/blocks/stones/pillars/dripstone_pillar"]
+		},
+		"framed_glass": {
+			"textures": ["textures/blocks/framed_glass/framed_glass"]
+		},
+		"granite_bricks": {
+			"textures": ["textures/blocks/stones/bricks/granite_bricks"]
+		},
+		"granite_pavement": {
+			"textures": ["textures/blocks/stones/pavement/granite_pavement"]
+		},
+		"granite_pillar": {
+			"textures": ["textures/blocks/stones/pillars/granite_pillar"]
+		},
+		"iron_block": {
+			"textures": ["textures/blocks/iron_block"]
+		},
+		"iron_grate": {
+			"textures": ["textures/blocks/iron_grate"]
+		},
+		"magma_bricks": {
+			"textures": ["textures/blocks/magma_bricks"]
+		},
+		"mossy_cobblestone_bricks": {
+			"textures": ["textures/blocks/stones/mossy_bricks/mossy_cobblestone_bricks"]
+		},
+		"mud_pillar": {
+			"textures": ["textures/blocks/stones/pillars/mud_pillar"]
+		},
+		"netherrack_bricks": {
+			"textures": ["textures/blocks/stones/bricks/netherrack_bricks"]
+		},
+		"polished_voidstone": {
+			"textures": ["textures/blocks/stones/polished/polished_voidstone"]
+		},
+		"raw_copper_bricks": {
+			"textures": ["textures/blocks/stones/bricks/raw_copper_bricks"]
+		},
+		"raw_gold_bricks": {
+			"textures": ["textures/blocks/stones/bricks/raw_gold_bricks"]
+		},
+		"raw_iron_bricks": {
+			"textures": ["textures/blocks/stones/bricks/raw_iron_bricks"]
+		},
+		"red_sandstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/red_sandstone_bricks"]
+		},
+		"rusted_iron_block": {
+			"textures": ["textures/blocks/rusted_iron_block"]
+		},
+		"sandstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/sandstone_bricks"]
+		},
+		"soul_sandstone": {
+			"textures": ["textures/blocks/stones/soul_sandstone"]
+		},
+		"soul_sandstone_bottom": {
+			"textures": ["textures/blocks/stones/soul_sandstone_bottom"]
+		},
+		"soul_sandstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/soul_sandstone_bricks"]
+		},
+		"soul_sandstone_top": {
+			"textures": ["textures/blocks/stones/soul_sandstone_top"]
+		},
+		"tuff_pillar": {
+			"textures": ["textures/blocks/stones/pillars/tuff_pillar"]
+		},
+		"voidstone": {
+			"textures": ["textures/blocks/stones/voidstone"]
+		},
+		"voidstone_bricks": {
+			"textures": ["textures/blocks/stones/bricks/voidstone_bricks"]
+		},
+		"voidstone_pavement": {
+			"textures": ["textures/blocks/stones/pavement/voidstone_pavement"]
+		},
+		"voidstone_pillar": {
+			"textures": ["textures/blocks/stones/pillars/voidstone_pillar"]
+		}
+	}
+}
