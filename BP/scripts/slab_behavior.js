@@ -8,7 +8,7 @@ const slabBlockComponent = {
 	// Handles all interactions with an already placed slab.
 	onPlayerInteract(e) {
 		// Destructure event data for easier access
-		const { block, player, face } = e;
+		const { block, player, face, faceLocation } = e;
 
 		// Get the equipment component for the player
 		const equipment = player.getComponent("equippable");
@@ -26,8 +26,9 @@ const slabBlockComponent = {
 		);
 		const isDoubleSlab = block.permutation.getState("kado:double");
 
-		// Case 1: Merging to a double slab (clicking on the top of a bottom slab or bottom of a top slab)
-		// This logic only applies if the item in hand is the same type as the block.
+		let wasActionTaken = false;
+
+		// Case 1: Merging to a double slab (highest priority)
 		const isMergingSlab =
 			selectedItem.typeId === block.typeId &&
 			!isDoubleSlab &&
@@ -35,84 +36,111 @@ const slabBlockComponent = {
 				(verticalHalf === "top" && face === "Down"));
 
 		if (isMergingSlab) {
-			// Prevent the default action (placing a new block)
 			e.cancel = true;
-
-			// Set the block to a double slab
 			block.setPermutation(block.permutation.withState("kado:double", true));
-
-			// Remove water if the block was waterlogged
 			block.setWaterlogged(false);
+			wasActionTaken = true;
 		}
 
-		// Case 2: Placing a new block next to the existing slab (works for both single and double slabs)
-		const isPlacingNextTo = face !== "Up" && face !== "Down";
-
-		// This condition is separate to allow placing ANY block next to a slab
-		if (isPlacingNextTo) {
-			// Manually handle the placement, so cancel the default action
-			e.cancel = true;
-
+		// If it's not a merging action, check for other placements.
+		// We handle vertical and horizontal placement separately.
+		else {
 			// Get the adjacent block by calculating its location
 			const blockLocation = block.location;
 			const dimension = player.dimension;
+			let adjacentLocation = null;
 
-			// Map the face string to a location offset
-			const faceOffsets = {
-				Up: { x: 0, y: 1, z: 0 },
-				Down: { x: 0, y: -1, z: 0 },
-				North: { x: 0, y: 0, z: -1 },
-				South: { x: 0, y: 0, z: 1 },
-				West: { x: -1, y: 0, z: 0 },
-				East: { x: 1, y: 0, z: 0 },
-			};
+			// Handle vertical placement
+			if (face === "Up" || face === "Down") {
+				adjacentLocation =
+					face === "Up"
+						? {
+								x: blockLocation.x,
+								y: blockLocation.y + 1,
+								z: blockLocation.z,
+						  }
+						: {
+								x: blockLocation.x,
+								y: blockLocation.y - 1,
+								z: blockLocation.z,
+						  };
+			}
+			// Handle horizontal placement
+			else {
+				const faceOffsets = {
+					North: { x: 0, y: 0, z: -1 },
+					South: { x: 0, y: 0, z: 1 },
+					West: { x: -1, y: 0, z: 0 },
+					East: { x: 1, y: 0, z: 0 },
+				};
+				const offset = faceOffsets[face];
+				adjacentLocation = {
+					x: blockLocation.x + offset.x,
+					y: blockLocation.y + offset.y,
+					z: blockLocation.z + offset.z,
+				};
+			}
 
-			const offset = faceOffsets[face];
-			const adjacentLocation = {
-				x: blockLocation.x + offset.x,
-				y: blockLocation.y + offset.y,
-				z: blockLocation.z + offset.z,
-			};
+			const adjacentBlock = adjacentLocation
+				? dimension.getBlock(adjacentLocation)
+				: null;
 
-			const adjacentBlock = dimension.getBlock(adjacentLocation);
-
-			// Check if the adjacent block has valid placement conditions
 			if (
 				adjacentBlock &&
 				(adjacentBlock.typeId === "minecraft:air" || adjacentBlock.isLiquid)
 			) {
-				// Set the adjacent block's type to the selected item's type
-				adjacentBlock.setType(selectedItem.typeId);
+				e.cancel = true;
+				if (selectedItem.typeId.includes("slab")) {
+					// Set the adjacent block type to the selected item's type
+					adjacentBlock.setType(selectedItem.typeId);
+
+					// Then set the correct vertical state
+					let newSlabState;
+					if (face === "Up" || face === "Down") {
+						newSlabState = face === "Up" ? "bottom" : "top";
+					} else {
+						newSlabState = faceLocation.y >= 0.5 ? "bottom" : "top";
+					}
+					adjacentBlock.setPermutation(
+						adjacentBlock.permutation.withState(
+							"minecraft:vertical_half",
+							newSlabState
+						)
+					);
+					adjacentBlock.setPermutation(
+						adjacentBlock.permutation.withState("kado:double", false)
+					);
+				} else {
+					// Place full block if not a slab
+					adjacentBlock.setType(selectedItem.typeId);
+				}
+				wasActionTaken = true;
 			}
 		}
 
-		// If any of the above conditions were met, proceed with item reduction and sound
-		if (isMergingSlab || isPlacingNextTo) {
-			// Reduce item count if not in creative mode
+		if (wasActionTaken) {
 			if (player.getGameMode() !== "creative") {
 				if (selectedItem.amount > 1) {
 					selectedItem.amount -= 1;
 					equipment.setEquipment("Mainhand", selectedItem);
 				} else if (selectedItem.amount === 1) {
-					equipment.setEquipment("Mainhand", undefined); // Clear the slot
+					equipment.setEquipment("Mainhand", undefined);
 				}
 			}
-
-			// Play the stone block placement sound
 			player.playSound("use.stone");
 		}
 	},
 
 	catch(error) {
-		// Log any errors for debugging.
 		console.warn(`[Slab Behavior] An error occurred: ${error.message}`);
 	},
 };
 
-// Register the custom component
 system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 	blockComponentRegistry.registerCustomComponent(
 		"kado:slab_behavior",
 		slabBlockComponent
 	);
 });
+
+
