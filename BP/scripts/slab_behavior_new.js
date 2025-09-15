@@ -38,7 +38,6 @@ const slabBlockComponent = {
 
 		let wasActionTaken = false;
 
-
 		//Attempt to get permutation states; handle cases where block may not have these states
 		const verticalHalf = block.permutation.hasState("minecraft:vertical_half")
 			? block.permutation?.getState("minecraft:vertical_half")
@@ -100,12 +99,7 @@ const slabBlockComponent = {
 	},
 };
 // --- Subscriptions ---
-system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
-	// Register the custom block component
-	blockComponentRegistry.registerCustomComponent(
-		"kado:slab_behavior",
-		slabBlockComponent
-	);
+system.beforeEvents.startup.subscribe(() => {
 	// Subscribe to the onItemUseOn event for general slab behavior
 	world.beforeEvents.itemUse.subscribe((event) =>
 		slabBlockComponent.onItemUseOn(event)
