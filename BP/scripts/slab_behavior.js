@@ -36,14 +36,13 @@ const slabBlockComponent = {
 				(verticalHalf === "top" && face === "Down"));
 
 		if (isMergingSlab) {
-			e.cancel = true;
 			block.setPermutation(block.permutation.withState("kado:double", true));
 			block.setWaterlogged(false);
 			wasActionTaken = true;
 		}
 
 		// If it's not a merging action, check for other placements.
-		// We handle vertical and horizontal placement separately.
+		// Handle vertical and horizontal placement separately.
 		else {
 			// Get the adjacent block by calculating its location
 			const blockLocation = block.location;
@@ -84,16 +83,11 @@ const slabBlockComponent = {
 			const adjacentBlock = adjacentLocation
 				? dimension.getBlock(adjacentLocation)
 				: null;
-
-			if (
-				adjacentBlock &&
-				(adjacentBlock.typeId === "minecraft:air" || adjacentBlock.isLiquid)
-			) {
-				e.cancel = true;
+			//Check for valid placement conditions
+			if (adjacentBlock && (adjacentBlock.isAir || adjacentBlock.isLiquid)) {
+				// Set the adjacent block type to the selected item's type
+				adjacentBlock.setType(selectedItem.typeId);
 				if (selectedItem.typeId.includes("slab")) {
-					// Set the adjacent block type to the selected item's type
-					adjacentBlock.setType(selectedItem.typeId);
-
 					// Then set the correct vertical state
 					let newSlabState;
 					if (face === "Up" || face === "Down") {
@@ -110,9 +104,6 @@ const slabBlockComponent = {
 					adjacentBlock.setPermutation(
 						adjacentBlock.permutation.withState("kado:double", false)
 					);
-				} else {
-					// Place full block if not a slab
-					adjacentBlock.setType(selectedItem.typeId);
 				}
 				wasActionTaken = true;
 			}
@@ -142,5 +133,3 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 		slabBlockComponent
 	);
 });
-
-

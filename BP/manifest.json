@@ -27,7 +27,7 @@
 			"uuid": "cdb66484-36e0-4ba6-8133-a37f1c02e287",
 			"version": [1, 0, 4]
 		},
-		{ "module_name": "@minecraft/server", "version": "2.0.0" }
+		{ "module_name": "@minecraft/server", "version": "2.1.0" }
 	],
 	"metadata": { "authors": ["kadoman"] }
 }
