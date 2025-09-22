@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:polished_mud"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:packed_mud"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:packed_mud"
+			}
+		},
+		"result": {
+			"item": "kado:polished_mud"
+		}
+	}
+}

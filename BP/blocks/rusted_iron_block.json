@@ -14,7 +14,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:geometry": "geometry.block",
+			"minecraft:geometry": "geometry.full_block",
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"tag:minecraft:stone_tier_destructible": {},
 			"minecraft:destructible_by_mining": {

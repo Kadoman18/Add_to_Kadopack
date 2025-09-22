@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:voidstone_bricks"
+		},
+		"unlock": [
+			{
+				"item": "kado:voidstone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "kado:polished_voidstone"
+			}
+		},
+		"result": {
+			"item": "kado:voidstone_bricks"
+		}
+	}
+}

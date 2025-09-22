@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:diorite_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diorite"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:polished_diorite"
+			}
+		},
+		"result": {
+			"item": "kado:diorite_bricks"
+		}
+	}
+}

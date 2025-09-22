@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:polished_quartz"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:quartz_block"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "quartz_block"
+			}
+		},
+		"result": {
+			"item": "kado:polished_quartz"
+		}
+	}
+}

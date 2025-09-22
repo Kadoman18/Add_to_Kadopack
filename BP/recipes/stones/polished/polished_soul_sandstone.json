@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:polished_soul_sandstone"
+		},
+		"unlock": [
+			{
+				"item": "kado:soul_sandstone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "kado:soul_sandstone"
+			}
+		},
+		"result": {
+			"item": "kado:polished_soul_sandstone"
+		}
+	}
+}

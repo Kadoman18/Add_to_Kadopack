@@ -43,11 +43,9 @@
 					{ "item": "netherite_pickaxe", "destroy_speed": 0.25 },
 					{ "item": "golden_pickaxe", "destroy_speed": 0.2 }
 				]
-			},
-			"minecraft:custom_components": ["kado:slab_behavior"]
+			}
 		},
 		"permutations": [
-			// Bottom Slab
 			{
 				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('kado:double')",
 				"components": {
@@ -69,7 +67,6 @@
 					}
 				}
 			},
-			// Top Slab
 			{
 				"condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('kado:double')",
 				"components": {
@@ -91,11 +88,10 @@
 					}
 				}
 			},
-			// Double Slab
 			{
 				"condition": "q.block_state('kado:double')",
 				"components": {
-					"minecraft:geometry": "minecraft:geometry.full_block",
+					"minecraft:geometry": "geometry.full_block",
 					"minecraft:loot": "loot_tables/blocks/double_slabs/granite_bricks.json"
 				}
 			}

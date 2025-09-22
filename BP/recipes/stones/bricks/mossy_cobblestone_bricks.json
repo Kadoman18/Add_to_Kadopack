@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:mossy_cobblestone_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:mossy_cobblestone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:mossy_cobblestone"
+			}
+		},
+		"result": {
+			"item": "kado:mossy_cobblestone_bricks"
+		}
+	}
+}

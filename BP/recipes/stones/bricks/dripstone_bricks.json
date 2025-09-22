@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:dripstone_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:dripstone_block"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "kado:polished_dripstone"
+			}
+		},
+		"result": {
+			"item": "kado:dripstone_bricks"
+		}
+	}
+}

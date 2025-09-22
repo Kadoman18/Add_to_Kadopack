@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:brown_framed_glass_pane",
+			"menu_category": {
+				"group": "minecraft:itemGroup.name.glass",
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "brown_framed_glass"
+				}
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:stone_tier_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:loot": "loot_tables/empty.json"
+		}
+	}
+}

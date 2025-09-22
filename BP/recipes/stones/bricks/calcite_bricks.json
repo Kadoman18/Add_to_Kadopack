@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:calcite_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:calcite"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "kado:polished_calcite"
+			}
+		},
+		"result": {
+			"item": "kado:calcite_bricks"
+		}
+	}
+}

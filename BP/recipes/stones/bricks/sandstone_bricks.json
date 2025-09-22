@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:sandstone_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:sandstone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "kado:polished_sandstone"
+			}
+		},
+		"result": {
+			"item": "kado:sandstone_bricks"
+		}
+	}
+}

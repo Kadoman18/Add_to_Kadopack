@@ -4,9 +4,6 @@
 	"num_mip_levels": 4,
 	"padding": 8,
 	"texture_data": {
-		"": {
-			"textures": ["textures/blocks/"]
-		},
 		"andesite_bricks": {
 			"textures": ["textures/blocks/stones/bricks/andesite_bricks"]
 		},
@@ -16,8 +13,17 @@
 		"andesite_pillar": {
 			"textures": ["textures/blocks/stones/pillars/andesite_pillar"]
 		},
+		"black_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/black_framed_glass"]
+		},
 		"blackstone_bricks": {
 			"textures": ["textures/blocks/stones/bricks/blackstone_bricks"]
+		},
+		"blue_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/blue_framed_glass"]
+		},
+		"brown_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/brown_framed_glass"]
 		},
 		"calcite_bricks": {
 			"textures": ["textures/blocks/stones/bricks/calcite_bricks"]
@@ -46,7 +52,10 @@
 			"textures": ["textures/blocks/stones/bricks/cobblestone_bricks"]
 		},
 		"cut_soul_sandstone": {
-			"textures": ["textures/blocks/stones/cut_soul_sandstone"]
+			"textures": ["textures/blocks/stones/originals/cut_soul_sandstone"]
+		},
+		"cyan_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/cyan_framed_glass"]
 		},
 		"diorite_bricks": {
 			"textures": ["textures/blocks/stones/bricks/diorite_bricks"]
@@ -69,6 +78,9 @@
 		"framed_glass": {
 			"textures": ["textures/blocks/framed_glass/framed_glass"]
 		},
+		"framed_glass_pane_side": {
+			"textures": ["textures/blocks/framed_glass/framed_glass_pane_side"]
+		},
 		"granite_bricks": {
 			"textures": ["textures/blocks/stones/bricks/granite_bricks"]
 		},
@@ -78,17 +90,37 @@
 		"granite_pillar": {
 			"textures": ["textures/blocks/stones/pillars/granite_pillar"]
 		},
+		"gray_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/gray_framed_glass"]
+		},
+		"green_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/green_framed_glass"]
+		},
 		"iron_block": {
 			"textures": ["textures/blocks/iron_block"]
 		},
 		"iron_grate": {
 			"textures": ["textures/blocks/iron_grate"]
 		},
+		"light_blue_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/light_blue_framed_glass"]
+		},
+		"light_gray_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/light_gray_framed_glass"]
+		},
+		"lime_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/lime_framed_glass"]
+		},
+		"magenta_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/magenta_framed_glass"]
+		},
 		"magma_bricks": {
 			"textures": ["textures/blocks/magma_bricks"]
 		},
 		"mossy_cobblestone_bricks": {
-			"textures": ["textures/blocks/stones/mossy_bricks/mossy_cobblestone_bricks"]
+			"textures": [
+				"textures/blocks/stones/mossy_bricks/mossy_cobblestone_bricks"
+			]
 		},
 		"mud_pillar": {
 			"textures": ["textures/blocks/stones/pillars/mud_pillar"]
@@ -96,8 +128,56 @@
 		"netherrack_bricks": {
 			"textures": ["textures/blocks/stones/bricks/netherrack_bricks"]
 		},
+		"orange_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/orange_framed_glass"]
+		},
+		"pink_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/pink_framed_glass"]
+		},
+		"polished_calcite": {
+			"textures": ["textures/blocks/stones/polished/polished_calcite"]
+		},
+		"polished_dripstone": {
+			"textures": ["textures/blocks/stones/polished/polished_dripstone"]
+		},
+		"polished_end_stone": {
+			"textures": ["textures/blocks/stones/polished/polished_end_stone"]
+		},
+		"polished_mossy_stone": {
+			"textures": ["textures/blocks/stones/polished/polished_mossy_stone"]
+		},
+		"polished_mud": {
+			"textures": ["textures/blocks/stones/polished/polished_mud"]
+		},
+		"polished_netherrack": {
+			"textures": ["textures/blocks/stones/polished/polished_netherrack"]
+		},
+		"polished_prismarine": {
+			"textures": ["textures/blocks/stones/polished/polished_prismarine"]
+		},
+		"polished_purpur": {
+			"textures": ["textures/blocks/stones/polished/polished_purpur"]
+		},
+		"polished_quartz": {
+			"textures": ["textures/blocks/stones/polished/polished_quartz"]
+		},
+		"polished_red_sandstone": {
+			"textures": ["textures/blocks/stones/polished/polished_red_sandstone"]
+		},
+		"polished_sandstone": {
+			"textures": ["textures/blocks/stones/polished/polished_sandstone"]
+		},
+		"polished_soul_sandstone": {
+			"textures": ["textures/blocks/stones/polished/polished_soul_sandstone"]
+		},
+		"polished_stone": {
+			"textures": ["textures/blocks/stones/polished/polished_stone"]
+		},
 		"polished_voidstone": {
 			"textures": ["textures/blocks/stones/polished/polished_voidstone"]
+		},
+		"purple_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/purple_framed_glass"]
 		},
 		"raw_copper_bricks": {
 			"textures": ["textures/blocks/stones/bricks/raw_copper_bricks"]
@@ -107,6 +187,9 @@
 		},
 		"raw_iron_bricks": {
 			"textures": ["textures/blocks/stones/bricks/raw_iron_bricks"]
+		},
+		"red_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/red_framed_glass"]
 		},
 		"red_sandstone_bricks": {
 			"textures": ["textures/blocks/stones/bricks/red_sandstone_bricks"]
@@ -121,13 +204,13 @@
 			"textures": ["textures/blocks/stones/soul_sandstone"]
 		},
 		"soul_sandstone_bottom": {
-			"textures": ["textures/blocks/stones/soul_sandstone_bottom"]
+			"textures": ["textures/blocks/stones/originals/soul_sandstone_bottom"]
 		},
 		"soul_sandstone_bricks": {
 			"textures": ["textures/blocks/stones/bricks/soul_sandstone_bricks"]
 		},
 		"soul_sandstone_top": {
-			"textures": ["textures/blocks/stones/soul_sandstone_top"]
+			"textures": ["textures/blocks/stones/originals/soul_sandstone_top"]
 		},
 		"tuff_pillar": {
 			"textures": ["textures/blocks/stones/pillars/tuff_pillar"]
@@ -143,6 +226,12 @@
 		},
 		"voidstone_pillar": {
 			"textures": ["textures/blocks/stones/pillars/voidstone_pillar"]
+		},
+		"white_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/white_framed_glass"]
+		},
+		"yellow_framed_glass": {
+			"textures": ["textures/blocks/framed_glass/yellow_framed_glass"]
 		}
 	}
 }

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:polished_prismarine"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:prismarine"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:prismarine"
+			}
+		},
+		"result": {
+			"item": "kado:polished_prismarine"
+		}
+	}
+}

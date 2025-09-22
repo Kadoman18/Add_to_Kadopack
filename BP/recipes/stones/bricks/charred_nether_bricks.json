@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:charred_nether_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:nether_brick"
+			}
+		],
+		"tags": ["blast_furnace"],
+		"input": "minecraft:nether_brick",
+		"output": "kado:charred_nether_bricks"
+	}
+}

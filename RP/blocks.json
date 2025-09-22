@@ -1,3 +1,186 @@
 {
-	"format_version": [1, 1, 0]
+	"format_version": [1, 1, 0],
+	"andesite_bricks": {
+		"sound": ""
+	},
+	"andesite_pavement": {
+		"sound": ""
+	},
+	"andesite_pillar": {
+		"sound": ""
+	},
+	"black_framed_glass": {
+		"sound": ""
+	},
+	"blackstone_bricks": {
+		"sound": ""
+	},
+	"blue_framed_glass": {
+		"sound": ""
+	},
+	"brown_framed_glass": {
+		"sound": ""
+	},
+	"calcite_bricks": {
+		"sound": ""
+	},
+	"calcite_pillar": {
+		"sound": ""
+	},
+	"charred_nether_bricks": {
+		"sound": ""
+	},
+	"chiseled_diorite": {
+		"sound": ""
+	},
+	"chiseled_granite": {
+		"sound": ""
+	},
+	"chiseled_soul_sandstone": {
+		"sound": ""
+	},
+	"chiseled_voidstone": {
+		"sound": ""
+	},
+	"cobblestone_bricks": {
+		"sound": ""
+	},
+	"cut_soul_sandstone": {
+		"sound": ""
+	},
+	"cyan_framed_glass": {
+		"sound": ""
+	},
+	"diorite_bricks": {
+		"sound": ""
+	},
+	"diorite_pavement": {
+		"sound": ""
+	},
+	"diorite_pillar": {
+		"sound": ""
+	},
+	"dirt_bricks": {
+		"sound": ""
+	},
+	"dripstone_bricks": {
+		"sound": ""
+	},
+	"dripstone_pillar": {
+		"sound": ""
+	},
+	"framed_glass": {
+		"sound": ""
+	},
+	"granite_bricks": {
+		"sound": ""
+	},
+	"granite_pavement": {
+		"sound": ""
+	},
+	"granite_pillar": {
+		"sound": ""
+	},
+	"gray_framed_glass": {
+		"sound": ""
+	},
+	"green_framed_glass": {
+		"sound": ""
+	},
+	"iron_block": {
+		"sound": ""
+	},
+	"iron_grate": {
+		"sound": ""
+	},
+	"light_blue_framed_glass": {
+		"sound": ""
+	},
+	"light_gray_framed_glass": {
+		"sound": ""
+	},
+	"lime_framed_glass": {
+		"sound": ""
+	},
+	"magenta_framed_glass": {
+		"sound": ""
+	},
+	"magma_bricks": {
+		"sound": ""
+	},
+	"mossy_cobblestone_bricks": {
+		"sound": ""
+	},
+	"mud_pillar": {
+		"sound": ""
+	},
+	"netherrack_bricks": {
+		"sound": ""
+	},
+	"orange_framed_glass": {
+		"sound": ""
+	},
+	"pink_framed_glass": {
+		"sound": ""
+	},
+	"polished_voidstone": {
+		"sound": ""
+	},
+	"purple_framed_glass": {
+		"sound": ""
+	},
+	"raw_copper_bricks": {
+		"sound": ""
+	},
+	"raw_gold_bricks": {
+		"sound": ""
+	},
+	"raw_iron_bricks": {
+		"sound": ""
+	},
+	"red_framed_glass": {
+		"sound": ""
+	},
+	"red_sandstone_bricks": {
+		"sound": ""
+	},
+	"rusted_iron_block": {
+		"sound": ""
+	},
+	"sandstone_bricks": {
+		"sound": ""
+	},
+	"soul_sandstone": {
+		"sound": ""
+	},
+	"soul_sandstone_bottom": {
+		"sound": ""
+	},
+	"soul_sandstone_bricks": {
+		"sound": ""
+	},
+	"soul_sandstone_top": {
+		"sound": ""
+	},
+	"tuff_pillar": {
+		"sound": ""
+	},
+	"voidstone": {
+		"sound": ""
+	},
+	"voidstone_bricks": {
+		"sound": ""
+	},
+	"voidstone_pavement": {
+		"sound": ""
+	},
+	"voidstone_pillar": {
+		"sound": ""
+	},
+	"white_framed_glass": {
+		"sound": ""
+	},
+	"yellow_framed_glass": {
+		"sound": ""
+	}
 }

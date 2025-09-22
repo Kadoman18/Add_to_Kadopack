@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:tuff_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:tuff"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:tuff"
+			}
+		},
+		"result": {
+			"item": "kado:tuff_bricks"
+		}
+	}
+}

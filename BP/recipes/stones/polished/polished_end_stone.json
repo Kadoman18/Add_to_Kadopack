@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:polished_end_stone"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:end_stone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:end_stone"
+			}
+		},
+		"result": {
+			"item": "kado:polished_end_stone"
+		}
+	}
+}

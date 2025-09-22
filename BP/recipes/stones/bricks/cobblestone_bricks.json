@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:cobblestone_bricks"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:cobblestone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"result": {
+			"item": "kado:cobblestone_bricks"
+		}
+	}
+}
