@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:diorite_bricks"
+			"item": "kado:diorite_bricks",
+			"count": 4
 		}
 	}
 }

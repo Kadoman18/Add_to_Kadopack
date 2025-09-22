@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:dirt_bricks"
+			"item": "kado:dirt_bricks",
+			"count": 4
 		}
 	}
 }

@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_mossy_stone"
+			"item": "kado:polished_mossy_stone",
+			"count": 4
 		}
 	}
 }

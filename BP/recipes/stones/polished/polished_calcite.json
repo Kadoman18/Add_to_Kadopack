@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_calcite"
+			"item": "kado:polished_calcite",
+			"count": 4
 		}
 	}
 }

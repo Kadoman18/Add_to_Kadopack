@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:sandstone_bricks"
+			"item": "kado:sandstone_bricks",
+			"count": 4
 		}
 	}
 }

@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_end_stone"
+			"item": "kado:polished_end_stone",
+			"count": 4
 		}
 	}
 }

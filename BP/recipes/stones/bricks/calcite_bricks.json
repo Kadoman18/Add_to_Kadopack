@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:calcite_bricks"
+			"item": "kado:calcite_bricks",
+			"count": 4
 		}
 	}
 }

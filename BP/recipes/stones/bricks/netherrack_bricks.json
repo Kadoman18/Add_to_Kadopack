@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:netherrack_bricks"
+			"item": "kado:netherrack_bricks",
+			"count": 4
 		}
 	}
 }

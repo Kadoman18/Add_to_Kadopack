@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:blackstone_bricks"
+			"item": "kado:blackstone_bricks",
+			"count": 4
 		}
 	}
 }

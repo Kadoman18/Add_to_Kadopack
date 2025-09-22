@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_quartz"
+			"item": "kado:polished_quartz",
+			"count": 4
 		}
 	}
 }

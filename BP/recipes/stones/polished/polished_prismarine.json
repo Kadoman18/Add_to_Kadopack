@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_prismarine"
+			"item": "kado:polished_prismarine",
+			"count": 4
 		}
 	}
 }

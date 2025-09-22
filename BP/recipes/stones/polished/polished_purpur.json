@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_purpur"
+			"item": "kado:polished_purpur",
+			"count": 4
 		}
 	}
 }

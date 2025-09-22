@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:voidstone_bricks"
+			"item": "kado:voidstone_bricks",
+			"count": 4
 		}
 	}
 }

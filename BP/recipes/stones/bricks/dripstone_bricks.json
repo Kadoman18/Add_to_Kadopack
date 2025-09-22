@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:dripstone_bricks"
+			"item": "kado:dripstone_bricks",
+			"count": 4
 		}
 	}
 }

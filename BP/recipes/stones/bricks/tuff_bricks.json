@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:tuff_bricks"
+			"item": "kado:tuff_bricks",
+			"count": 4
 		}
 	}
 }

@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_sandstone"
+			"item": "kado:polished_sandstone",
+			"count": 4
 		}
 	}
 }

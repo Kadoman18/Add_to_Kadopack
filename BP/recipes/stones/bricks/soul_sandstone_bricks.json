@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:soul_sandstone_bricks"
+			"item": "kado:soul_sandstone_bricks",
+			"count": 4
 		}
 	}
 }

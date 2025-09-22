@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:granite_bricks"
+			"item": "kado:granite_bricks",
+			"count": 4
 		}
 	}
 }

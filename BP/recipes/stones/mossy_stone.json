@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:mossy_stone"
+		},
+		"unlock": [
+			{
+				"item": "kado:mossy_stone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"pattern": ["M#", "#M"],
+		"key": {
+			"#": { "item": "minecraft:stone" },
+			"M": { "item": "minecraft:vine" }
+		},
+		"result": {
+			"item": "kado:mossy_stone",
+			"count": 4
+		}
+	}
+}

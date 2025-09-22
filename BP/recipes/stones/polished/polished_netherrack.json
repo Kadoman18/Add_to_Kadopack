@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_netherrack"
+			"item": "kado:polished_netherrack",
+			"count": 4
 		}
 	}
 }

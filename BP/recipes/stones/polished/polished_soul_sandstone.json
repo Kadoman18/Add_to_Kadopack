@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:polished_soul_sandstone"
+			"item": "kado:polished_soul_sandstone",
+			"count": 4
 		}
 	}
 }

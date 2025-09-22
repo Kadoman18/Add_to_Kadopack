@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:mossy_cobblestone_bricks"
+			"item": "kado:mossy_cobblestone_bricks",
+			"count": 4
 		}
 	}
 }

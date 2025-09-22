@@ -17,7 +17,8 @@
 			}
 		},
 		"result": {
-			"item": "kado:cobblestone_bricks"
+			"item": "kado:cobblestone_bricks",
+			"count": 4
 		}
 	}
 }
