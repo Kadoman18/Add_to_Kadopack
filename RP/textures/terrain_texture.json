@@ -509,6 +509,14 @@
 		},
 		"smooth_purpur": {
 			"textures": ["textures/blocks/stones/smooth/smooth_purpur"]
+		},
+		"suspicious_soul_sand": {
+			"textures": [
+				"textures/blocks/suspicious/suspicious_soul_sand_0",
+				"textures/blocks/suspicious/suspicious_soul_sand_1",
+				"textures/blocks/suspicious/suspicious_soul_sand_2",
+				"textures/blocks/suspicious/suspicious_soul_sand_3"
+			]
 		}
 	}
 }
