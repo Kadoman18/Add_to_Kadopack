@@ -4,7 +4,6 @@
 		"description": {
 			"identifier": "kado:chiseled_soul_sandstone",
 			"menu_category": {
-				"group": "minecraft:itemGroup.name.stoneBrick",
 				"category": "construction"
 			}
 		},
@@ -13,6 +12,9 @@
 				"*": {
 					"texture": "chiseled_soul_sandstone"
 				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.full_block"
 			},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"tag:minecraft:stone_tier_destructible": {},

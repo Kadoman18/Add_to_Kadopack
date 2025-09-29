@@ -14,6 +14,9 @@
 					"texture": "andesite_pillar"
 				}
 			},
+			"minecraft:geometry": {
+				"identifier": "geometry.pillar"
+			},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"tag:minecraft:stone_tier_destructible": {},
 			"minecraft:destructible_by_mining": {

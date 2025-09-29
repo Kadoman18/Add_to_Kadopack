@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "kado:blackstone_bricks_slab",
+			"identifier": "kado:cobbled_blackstone_bricks_slab",
 			"menu_category": {
 				"group": "minecraft:itemGroup.name.slab",
 				"category": "construction"
@@ -20,7 +20,7 @@
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "blackstone_bricks"
+					"texture": "cobbled_blackstone_bricks"
 				}
 			},
 			"minecraft:geometry": {
@@ -92,7 +92,7 @@
 				"condition": "q.block_state('kado:double')",
 				"components": {
 					"minecraft:geometry": "geometry.full_block",
-					"minecraft:loot": "loot_tables/blocks/double_slabs/blackstone_bricks.json"
+					"minecraft:loot": "loot_tables/blocks/double_slabs/cobbled_blackstone_bricks.json"
 				}
 			}
 		]

@@ -5,27 +5,27 @@
 		"name": "Add to Kadopack (BP)",
 		"description": "Shit to add to the Kadopack",
 		"uuid": "210ac8da-d8d9-4dc7-b391-e241e14f7927",
-		"version": [1, 0, 7]
+		"version": [1, 0, 8]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"description": "Manyyyy Fixes.",
 			"uuid": "522ddc66-81e5-48c3-9414-03d82733b324",
-			"version": [1, 0, 7]
+			"version": [1, 0, 8]
 		},
 		{
 			"type": "script",
 			"language": "javascript",
 			"entry": "main.js",
 			"uuid": "78696aef-a6b6-4ea8-9937-8d524cc54da8",
-			"version": [1, 0, 0]
+			"version": [1, 0, 1]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "cdb66484-36e0-4ba6-8133-a37f1c02e287",
-			"version": [1, 0, 4]
+			"version": [1, 0, 5]
 		},
 		{ "module_name": "@minecraft/server", "version": "2.1.0" }
 	],
