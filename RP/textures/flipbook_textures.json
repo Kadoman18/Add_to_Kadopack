@@ -1,7 +1,14 @@
 [
 	{
-		"flipbook_texture": "textures/blocks/magma_bricks",
+		"flipbook_texture": "textures/blocks/stones/bricks/magma_bricks",
 		"atlas_tile": "magma_bricks",
+		"ticks_per_frame": 8,
+		"blend_frames": true,
+		"frames": [0, 1, 2]
+	},
+	{
+		"flipbook_texture": "textures/blocks/stones/chiseled/chiseled_magma_bricks",
+		"atlas_tile": "chiseled_magma_bricks",
 		"ticks_per_frame": 8,
 		"blend_frames": true,
 		"frames": [0, 1, 2]

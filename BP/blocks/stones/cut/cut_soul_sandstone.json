@@ -11,12 +11,6 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "cut_soul_sandstone"
-				},
-				"up": {
-					"texture": "soul_sandstone_top"
-				},
-				"down": {
-					"texture": "soul_sandstone_bottom"
 				}
 			},
 			"minecraft:geometry": {

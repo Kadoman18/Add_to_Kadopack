@@ -11,8 +11,11 @@
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "granite"
+					"texture": "granite_bricks"
 				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.full_block"
 			},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"tag:minecraft:stone_tier_destructible": {},

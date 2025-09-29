@@ -16,11 +16,17 @@
 		"andesite_plates": {
 			"textures": ["textures/blocks/stones/plates/andesite_plates"]
 		},
+		"andesite_tiles": {
+			"textures": ["textures/blocks/stones/tiles/andesite_tiles"]
+		},
 		"basalt_pavement": {
 			"textures": ["textures/blocks/stones/pavement/basalt_pavement"]
 		},
 		"basalt_plates": {
 			"textures": ["textures/blocks/stones/plates/basalt_plates"]
+		},
+		"basalt_tiles": {
+			"textures": ["textures/blocks/stones/tiles/basalt_tiles"]
 		},
 		"black_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/black_framed_glass"]
@@ -31,11 +37,20 @@
 		"blackstone_plates": {
 			"textures": ["textures/blocks/stones/plates/blackstone_plates"]
 		},
+		"blackstone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/blackstone_tiles"]
+		},
 		"blue_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/blue_framed_glass"]
 		},
+		"blue_nether_brick_tiles": {
+			"textures": ["textures/blocks/stones/tiles/blue_nether_brick_tiles"]
+		},
 		"blue_nether_bricks": {
 			"textures": ["textures/blocks/stones/bricks/blue_nether_bricks"]
+		},
+		"brick_tiles": {
+			"textures": ["textures/blocks/stones/tiles/brick_tiles"]
 		},
 		"brown_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/brown_framed_glass"]
@@ -147,7 +162,7 @@
 			"textures": ["textures/blocks/stones/cobbled/cobbled_granite"]
 		},
 		"cobbled_mossy_stone": {
-			"textures": ["textures/blocks/stones/cobbled/cobbled_mossy_stone"]
+			"textures": ["textures/blocks/mossy_cobblestone"]
 		},
 		"cobbled_mud": {
 			"textures": ["textures/blocks/stones/cobbled/cobbled_mud"]
@@ -453,6 +468,9 @@
 		"diorite_plates": {
 			"textures": ["textures/blocks/stones/plates/diorite_plates"]
 		},
+		"diorite_tiles": {
+			"textures": ["textures/blocks/stones/tiles/diorite_tiles"]
+		},
 		"dirt_bricks": {
 			"textures": ["textures/blocks/stones/bricks/dirt_bricks"]
 		},
@@ -467,6 +485,9 @@
 		},
 		"end_stone_plates": {
 			"textures": ["textures/blocks/stones/plates/end_stone_plates"]
+		},
+		"end_stone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/end_stone_tiles"]
 		},
 		"framed_glass": {
 			"textures": ["textures/blocks/framed_glass/framed_glass"]
@@ -485,6 +506,9 @@
 		},
 		"granite_plates": {
 			"textures": ["textures/blocks/stones/plates/granite_plates"]
+		},
+		"granite_tiles": {
+			"textures": ["textures/blocks/stones/tiles/granite_tiles"]
 		},
 		"gray_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/gray_framed_glass"]
@@ -511,7 +535,7 @@
 			"textures": ["textures/blocks/framed_glass/magenta_framed_glass"]
 		},
 		"magma_bricks": {
-			"textures": ["textures/blocks/magma_bricks"]
+			"textures": ["textures/blocks/stones/bricks/magma_bricks"]
 		},
 		"mossy_cobblestone_bricks": {
 			"textures": [
@@ -521,8 +545,17 @@
 		"mossy_stone": {
 			"textures": ["textures/blocks/stones/originals/mossy_stone"]
 		},
+		"mossy_stone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/mossy_stone_tiles"]
+		},
 		"mud_pillar": {
 			"textures": ["textures/blocks/stones/pillars/mud_pillar"]
+		},
+		"mud_tiles": {
+			"textures": ["textures/blocks/stones/tiles/mud_tiles"]
+		},
+		"nether_brick_tiles": {
+			"textures": ["textures/blocks/stones/tiles/nether_brick_tiles"]
 		},
 		"netherrack_bricks": {
 			"textures": ["textures/blocks/stones/bricks/netherrack_bricks"]
@@ -532,6 +565,9 @@
 		},
 		"netherrack_plates": {
 			"textures": ["textures/blocks/stones/plates/netherrack_plates"]
+		},
+		"netherrack_tiles": {
+			"textures": ["textures/blocks/stones/tiles/netherrack_tiles"]
 		},
 		"orange_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/orange_framed_glass"]
@@ -587,17 +623,26 @@
 		"prismarine_plates": {
 			"textures": ["textures/blocks/stones/plates/prismarine_plates"]
 		},
+		"prismarine_tiles": {
+			"textures": ["textures/blocks/stones/tiles/prismarine_tiles"]
+		},
 		"purple_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/purple_framed_glass"]
 		},
 		"purpur_pavement": {
 			"textures": ["textures/blocks/stones/pavement/purpur_pavement"]
 		},
+		"purpur_tiles": {
+			"textures": ["textures/blocks/stones/tiles/purpur_tiles"]
+		},
 		"quartz_pavement": {
 			"textures": ["textures/blocks/stones/pavement/quartz_pavement"]
 		},
 		"quartz_plates": {
 			"textures": ["textures/blocks/stones/plates/quartz_plates"]
+		},
+		"quartz_tiles": {
+			"textures": ["textures/blocks/stones/tiles/quartz_tiles"]
 		},
 		"raw_copper_bricks": {
 			"textures": ["textures/blocks/stones/bricks/raw_copper_bricks"]
@@ -611,6 +656,9 @@
 		"red_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/red_framed_glass"]
 		},
+		"red_nether_brick_tiles": {
+			"textures": ["textures/blocks/stones/tiles/red_nether_brick_tiles"]
+		},
 		"red_sandstone_bricks": {
 			"textures": ["textures/blocks/stones/bricks/red_sandstone_bricks"]
 		},
@@ -619,6 +667,9 @@
 		},
 		"red_sandstone_plates": {
 			"textures": ["textures/blocks/stones/plates/red_sandstone_plates"]
+		},
+		"red_sandstone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/red_sandstone_tiles"]
 		},
 		"rusted_iron_block": {
 			"textures": ["textures/blocks/rusted_iron_block"]
@@ -631,6 +682,9 @@
 		},
 		"sandstone_plates": {
 			"textures": ["textures/blocks/stones/plates/sandstone_plates"]
+		},
+		"sandstone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/sandstone_tiles"]
 		},
 		"smooth_andesite": {
 			"textures": ["textures/blocks/stones/smooth/smooth_andesite"]
@@ -683,6 +737,9 @@
 		"stone_plates": {
 			"textures": ["textures/blocks/stones/plates/stone_plates"]
 		},
+		"stone_tiles": {
+			"textures": ["textures/blocks/stones/tiles/stone_tiles"]
+		},
 		"tuff_pavement": {
 			"textures": ["textures/blocks/stones/pavement/tuff_pavement"]
 		},
@@ -693,7 +750,7 @@
 			"textures": ["textures/blocks/stones/plates/tuff_plates"]
 		},
 		"voidstone": {
-			"textures": ["textures/blocks/stones/voidstone"]
+			"textures": ["textures/blocks/stones/originals/voidstone"]
 		},
 		"voidstone_bricks": {
 			"textures": ["textures/blocks/stones/bricks/voidstone_bricks"]
@@ -712,63 +769,6 @@
 		},
 		"yellow_framed_glass": {
 			"textures": ["textures/blocks/framed_glass/yellow_framed_glass"]
-		},
-		"andesite_tiles": {
-			"textures": ["textures/blocks/stones/tiles/andesite_tiles"]
-		},
-		"basalt_tiles": {
-			"textures": ["textures/blocks/stones/tiles/basalt_tiles"]
-		},
-		"blackstone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/blackstone_tiles"]
-		},
-		"blue_nether_brick_tiles": {
-			"textures": ["textures/blocks/stones/tiles/blue_nether_brick_tiles"]
-		},
-		"brick_tiles": {
-			"textures": ["textures/blocks/stones/tiles/brick_tiles"]
-		},
-		"diorite_tiles": {
-			"textures": ["textures/blocks/stones/tiles/diorite_tiles"]
-		},
-		"end_stone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/end_stone_tiles"]
-		},
-		"granite_tiles": {
-			"textures": ["textures/blocks/stones/tiles/granite_tiles"]
-		},
-		"mossy_stone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/mossy_stone_tiles"]
-		},
-		"mud_tiles": {
-			"textures": ["textures/blocks/stones/tiles/mud_tiles"]
-		},
-		"nether_brick_tiles": {
-			"textures": ["textures/blocks/stones/tiles/nether_brick_tiles"]
-		},
-		"netherrack_tiles": {
-			"textures": ["textures/blocks/stones/tiles/netherrack_tiles"]
-		},
-		"prismarine_tiles": {
-			"textures": ["textures/blocks/stones/tiles/prismarine_tiles"]
-		},
-		"purpur_tiles": {
-			"textures": ["textures/blocks/stones/tiles/purpur_tiles"]
-		},
-		"quartz_tiles": {
-			"textures": ["textures/blocks/stones/tiles/quartz_tiles"]
-		},
-		"red_nether_brick_tiles": {
-			"textures": ["textures/blocks/stones/tiles/red_nether_brick_tiles"]
-		},
-		"red_sandstone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/red_sandstone_tiles"]
-		},
-		"sandstone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/sandstone_tiles"]
-		},
-		"stone_tiles": {
-			"textures": ["textures/blocks/stones/tiles/stone_tiles"]
 		}
 	}
 }

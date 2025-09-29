@@ -1,0 +1,4 @@
+
+
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/double_slabs/cobbled_blackstone_bricks.json
+
